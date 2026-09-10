@@ -1,0 +1,239 @@
+body{ 
+ background-color: rgb(42, 42, 187);   
+}
+.encabezado {
+    background-color: rgb(20, 17, 185);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+.encabezado img {
+    width: 100px;
+    height: 100px;
+}
+.encabezado button {
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0a296b;
+    color: white;
+    border: 2px solid #0f172a;
+    border-radius: 10px;
+    cursor: pointer;
+    flex: 1;
+}
+.banner {
+     background-image: url("fondo.robotica.avif");
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner h1 {
+    font-family: Impact, sans-serif;  
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    text-align: center;
+    color: beige;
+    font-size: 70px;
+}
+.banner img {
+    position: absolute;
+    height: 400px;
+    width: auto;
+    top: 155px;
+}
+.p{
+color: white;
+font-family: Georgia, serif;
+font-size: 40px;
+line-height: 1.6;
+text-align: center;
+}
+hr {
+    width: 90%;
+    border: none;
+    border-top: 3px solid #000000;
+    margin: 10px auto 30px auto;
+}
+.h2 {
+    text-align: center;
+    font-size: 36px;
+    font-family: "Arial Black", Arial, sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #777;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.centro {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 0;
+}
+.caja {
+    width: 250px;
+    height: 300px;
+    border: 4px solid black;
+    box-sizing: border-box;
+}
+.caja-header {
+    height: 40px;
+     text-align: center;
+    padding-top: 15px;
+     color: white;
+    font-weight: bold;
+}
+.caja-body {
+  height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.caja-body img {
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    margin: 0;
+}
+.caja-body p {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
+}
+.caja-1 {
+    background-color: rgb(1, 85, 1);
+}
+.caja-2 {
+    background-color: #04596e;
+}
+.caja-3 {
+    background-color: #045e25;
+}
+.caja-4 {
+    background-color: #914202;
+}
+.caja-5 {
+    background-color: #6e047c;
+}
+.caja-6 {
+    background-color: #2b0769;
+}
+footer {
+    background-color: #063092;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+h1 {
+    text-align: center;
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: 45px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #ffffff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.caja-7 {
+    background-color: darkgreen;
+}
+.caja-8 {
+    background-color: darkgreen;
+}
+.caja-9 {
+    background-color: darkgreen;
+}
+.caja-body-1 {
+    height: 246px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.caja-body-1 p {
+    width: 100%;
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+.caja-body-1 img {
+    width: 170px;
+    height: 200px;
+    object-fit: contain;
+}
+.p-1 {
+    width: 85%;
+    margin: 30px auto;
+    padding: 30px;
+    background-color: #3634dd;
+    border: 3px solid #00091f;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    width: 800px;
+    
+    margin: 40px auto;
+}
+.h2-2 {
+    text-align: center;
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 10px;
+   
+}
+ul {
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.8;
+   
+}
+.p-3 {
+    width: 85%;
+    margin: 30px auto 50px auto;
+    padding: 30px;
+    background-color: #164e63;
+    border: 4px solid #0f172a;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.p-3 .p {
+    width: 100%;
+    text-align: left;
+}
+.h1-4 h1 {
+    color: red;
+    font-family: Impact, sans-serif;
+    font-size: 55px;
+    text-align: center;
+    text-shadow: 3px 3px 6px black;
+    letter-spacing: 3px;
+}
+.lista-centro {
+    width: 500px;
+    margin: 30px auto;
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.8;
+}
