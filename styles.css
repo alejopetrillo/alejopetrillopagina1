@@ -28,7 +28,7 @@ body{
     flex: 1;
 }
 .banner {
-     background-image: url("fondo.robotica.avif");
+     background-image: url("img/fondo.robotica.avif");
      background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -89,11 +89,13 @@ hr {
     box-sizing: border-box;
 }
 .caja-header {
-    height: 40px;
+    height: 35px;
      text-align: center;
-    padding-top: 15px;
+    padding-top: 10px;
      color: white;
     font-weight: bold;
+     font-size: 33px;
+  
 }
 .caja-body {
   height: 260px;
@@ -106,7 +108,7 @@ hr {
     box-sizing: border-box;
 }
 .caja-body img {
-    width: 200px;
+    width: 90px;
     height: 100px;
     object-fit: contain;
     margin: 0;
